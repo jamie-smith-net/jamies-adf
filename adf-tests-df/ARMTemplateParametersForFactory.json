@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-tests-df"
+		},
+		"KV_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://adf-tests-kv.vault.azure.net/"
+		},
+		"LS_ASQL_AdfTesting_properties_typeProperties_connectionString_secretName": {
+			"value": "AdfTestingDbConnectionString"
+		},
+		"LS_ASQL_ExternalSystem_properties_typeProperties_connectionString_secretName": {
+			"value": "ExternalSystemDbConnectionString"
+		},
+		"LS_ASQL_Parameterised_properties_typeProperties_connectionString_secretName": {
+			"value": "@linkedService().ConnectionStringSecretName"
+		}
+	}
+}
