@@ -1,7 +1,7 @@
 {
 	"name": "LS_ASQL_AdfTesting",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"connectionString": {
@@ -12,7 +12,7 @@
 				},
 				"secretName": "AdfTestingDbConnectionString"
 			}
-		},
-		"annotations": []
-	}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
