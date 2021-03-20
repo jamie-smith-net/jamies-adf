@@ -6,7 +6,7 @@
 			"value": "adf-tests-df"
 		},
 		"KV_AzureKeyVault_properties_typeProperties_baseUrl": {
-			"value": "https://adf-tests-kv.vault.azure.net/"
+			"value": "https://adf-tests-kv.vault.azure.net"
 		},
 		"LS_ASQL_AdfTesting_properties_typeProperties_connectionString_secretName": {
 			"value": "AdfTestingDbConnectionString"

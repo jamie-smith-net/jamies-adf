@@ -9,7 +9,7 @@
 		},
 		"KV_AzureKeyVault_properties_typeProperties_baseUrl": {
 			"type": "string",
-			"defaultValue": "https://adf-tests-kv.vault.azure.net/"
+			"defaultValue": "https://adf-tests-kv.vault.azure.net"
 		},
 		"LS_ASQL_AdfTesting_properties_typeProperties_connectionString_secretName": {
 			"type": "string",
